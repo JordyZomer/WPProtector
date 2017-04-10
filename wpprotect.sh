@@ -1,4 +1,5 @@
 #!/bin/bash
+# Authors: @nbeernink  @jordyzomer
 # Find wp-login files to protect
 test -e /tmp/found-wp-instances || find /home/ -type f -name "wp-login.php" > /tmp/found-wp-instances
 
